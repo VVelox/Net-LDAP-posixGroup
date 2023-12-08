@@ -2,7 +2,7 @@
 
 Creates new Net::LDAP::Entry object for a posixGroup entry
 
-```
+```perl
 use Net::LDAP::posixGroup;
 
 my $foo = Net::LDAP::posixGroup->new(baseDN=>'ou=group,dc=foo');
